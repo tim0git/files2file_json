@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-function filesToFileJSON(fileDir) {
+module.exports = function filesToFileJSON(fileDir) {
   fs.readdir(`${fileDir}`, "utf8", function callback(error, fileList) {
     if (error) console.log(error);
     else {
