@@ -1,4 +1,6 @@
 # files2file_json
+![npm](https://img.shields.io/npm/v/files2file_json)
+
 quick function that creates a JSON file from a folder or JSON Files.
 
 Install
